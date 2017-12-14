@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+ <meta charset="UTF-8">
+ <title></title>
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+ <link rel="stylesheet" href="assets/css/main.css">
+</head>
+<body>
+  <section class="img-logo">
+    <h1>FOODMAP</h1>
+    <img src="assets/img/giphy.gif" alt="" class="loading">
+  </section>
+
+<div class="page-home">
+<section>
+   <div class="container">
+  <div class="row">
+   <div class="col-sm-12 col-xs-12">
+    <h3 class="page-header">Foodmap</h3>
+   </div>
+  </div>
+  </section>
+
+  <section>
+    <div class="container">
+  <div class="row">
+   <div class="col-xs-12 col-sm-12 ">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d37673.028744513205!2d-70.65987703473955!3d-33.42697856044712!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1srestaurantes!5e0!3m2!1ses-419!2scl!4v1513113258079" frameborder="0" style="border:2" class="center-block" allowfullscreen></iframe>
+   </div>
+  </div>
+  </div>
+</section>
+
+  <section>
+  <div class="container">
+  <div class="row space-bottom">
+   <div class="col-sm-12 col-xs-12">
+    <h3>Comida cerca de ti</h3>
+    <p class="recomendation">Tenemos una infinidad de comidas escoje entre:</p>
+    <p class="recomendation">japonesa-mexicana-chilena-china-peruana-italiana</p>
+    <!-- /input-group -->
+    <div class="input-group">
+      <input class="form-control filter" id="myInput" type="text" placeholder="Filtrar Restaurantes..">
+      <span class="input-group-btn">
+        <button class="btn btn-default span-icon" type="button">
+         <span class="glyphicon glyphicon-search span-icon search-btn" aria-hidden="true"></span>
+        </button>
+      </span>
+    </div>
+   </div>
+  </div>
+  </div>
+</section>
+
+  <section class="img-restaurant " id="myList">
+    <div class="container">
+      <div class="row space-bottom">
+       <div class="col-xs-4 col-sm-4 no-space">
+        <p class="txt-restaurant"></p>
+        <img src="assets/img/sushi.jpg" alt="" class="img-responsive japonesa  zoom" data-toggle="modal" data-target="#modal-restaurant" data-name="Hiroki" data-message="sushi delivery" data-address="san daniel #2598" data-cost="precios desde 2000">
+        <p class="hidden-md hidden-xs hidden-sm hidden-lg">japonesa</p>
+       </div>
+       <div class="col-xs-4 col-sm-4 no-space">
+        <p class="txt-restaurant"></p>
+        <img src="assets/img/chilena.jpg" alt="" class="img-responsive chilena zoom" data-toggle="modal" data-target="#modal-restaurant" data-name="huasolindo" data-message="el sabor chileno" data-address="asdasdas #2598" data-cost="precios desde 2000">
+        <p class="hidden-md hidden-xs hidden-sm hidden-lg">chilena</p>
+       </div>
+       <div class="col-xs-4 col-sm-4 no-space">
+        <p class="txt-restaurant"></p>
+        <img src="assets/img/peruana.jpg" alt="" class="img-responsive peruana zoom" data-toggle="modal" data-target="#modal-restaurant" data-name="Peru" data-message="peruan food" data-address="espino rojo #2598" data-cost="precios desde 2000">
+        <p class="hidden-md hidden-xs hidden-sm hidden-lg">peruana</p>
+       </div>
+       </div>
+       <div class="row space-bottom">
+       <div class="col-xs-4 col-sm-4 no-space">
+        <p class="txt-restaurant"></p>
+        <img src="assets/img/italiana.jpg" alt="" class="img-responsive italiana zoom" data-toggle="modal" data-target="#modal-restaurant" data-name="Franccesca" data-message="italian food" data-address="san francisco #2878" data-cost="precios desde 2000">
+        <p class="hidden-md hidden-xs hidden-sm hidden-lg">italiana</p>
+       </div>
+        <div class="col-xs-4 col-sm-4 no-space">
+          <p class="txt-restaurant"></p>
+      <img src="assets/img/mexicana.jpg" alt="" class="img-responsive mexicana zoom" data-toggle="modal" data-target="#modal-restaurant" data-name="Rancherito" data-message="mexican food" data-address="san daniel #2598" data-cost="precios desde 2000">
+      <p class="hidden-md hidden-xs hidden-sm hidden-lg">mexicana</p>  
+      </div>    
+      <div class="col-xs-4 col-sm-4 no-space">
+        <p class="txt-restaurant"></p>
+        <img src="assets/img/ensalada.jpg" alt="" class="img-responsive italiana zoom" data-toggle="modal" data-target="#modal-restaurant" data-name="gigi-picolo" data-message="la mia italia para mua!" data-address="gato psj lejos #3456" data-cost="precios desde 2000">
+        <p class="hidden-md hidden-xs hidden-sm hidden-lg">ensalada</p> 
+    </div>
+    </div>
+    <div class="row space-bottom">
+      <div class="col-sm-4 col-xs-4 no-space">
+        <p class="txt-restaurant"></p>
+        <img src="assets/img/comida rapida.jpg" alt="" class="img-responsive china zoom" data-toggle="modal" data-target="#modal-restaurant" data-name="xiang" data-message="Comida china" data-address="la estrella 2159" data-cost="precios desde 2000">
+        <p class="hidden-md hidden-xs hidden-sm hidden-lg">china</p>
+      </div>      
+      <div class="col-sm-4 col-xs-4 no-space">
+        <p class="txt-restaurant"></p>
+        <img src="assets/img/tacos.jpg" alt="" class="img-responsive mexicana zoom" data-toggle="modal" data-target="#modal-restaurant" data-name="El mexicanote" data-message="lo mejor de mexico aqui en tu ciudad" data-address="av evergreen #2165" data-cost="precios desde 2000">
+        <p class="hidden-md hidden-xs hidden-sm hidden-lg">mexicana</p>
+      </div>      
+      <div class="col-sm-4 col-xs-4 no-space">
+        <p class="txt-restaurant"></p>
+        <img src="assets/img/china.jpg" alt="" class="img-responsive china zoom " data-toggle="modal" data-target="#modal-restaurant" data-name="Huang-xiang" data-message="Comida china" data-address="por ahi, un poco lejos" data-cost="precios desde 2000">
+        <p class="hidden-md hidden-xs hidden-sm hidden-lg">china</p>
+      </div>      
+    </div>
+        <!--modal -->
+        <div id="modal-restaurant" class="modal fade" role="dialog">
+          <div class="modal-dialog">        
+            <!-- Modal content-->
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h4 class="title"></h4>
+              </div>
+              <div class="modal-body">
+                <div class="row">
+                  <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                      <iframe class="smallMap" src="https://www.google.com/maps/embed/v1/search?key=AIzaSyA3CyFrzU5NCxDrTbRfIRaYQDGGKTqlhcs&q=comida+china+santiago">
+                      </iframe>
+                      <p class="message"></p>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 address"></div>
+                  <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 cost"></div>
+                </div>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-default order" data-dismiss="modal">Pedir ahora</button>
+              </div>
+            </div>        
+          </div>
+  </section>
+
+</div>
+
+</div>
+
+ <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+ <script src="https://use.fontawesome.com/7873633050.js"></script>
+ <script src="https://use.fontawesome.com/4154d90246.js"></script>
+ <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+ <script src="https://code.jquery.com/jquery-3.2.1.min.js"
+   integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+   crossorigin="anonymous"></script>
+ <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+ <script type="text/javascript" src="assets/js/app.js"></script>
+</body>
+</html>

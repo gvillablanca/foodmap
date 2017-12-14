@@ -1,0 +1,75 @@
+body{
+	background-color: #2B2B2B;
+	text-align: center;
+}
+
+h3, h1, h4{
+	color: #E1802C;
+}
+
+h1{
+	margin-top: 60%;
+}
+
+.loading{
+	width: 40%;
+	margin-top:5%;
+}
+
+.span-icon{
+	color: white;
+	background-color: #2B2B2B;
+}
+
+img{	
+	width: 100%;
+}
+
+.no-space{
+	padding: 0.5%;
+}
+
+.space-bottom{
+	margin-bottom: 4%;
+}
+
+.restaurant-chilean{
+	color: white;
+	font-size: 20px;
+}
+
+.zoom {
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    -ms-transition: all 0.2s ease-in-out;
+}
+ 
+.transition {
+    -webkit-transform: scale(1.1); 
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.recomendation{
+	color: #E1802C;
+}
+
+img.zoom:hover{
+	opacity: 0.4;
+}
+
+.title{
+	font-size: 50px;
+	font-weight: bold;
+}
+
+.message{
+	font-style: italic; 
+	font-weight: bold;
+}
+
+.txt-restaurant{
+	z-index: 100;
+}
