@@ -6,3 +6,6 @@ Proyecto desarrollado con el fin de que pueda realizarce un filtro de las comida
 ![Prototipo web movil](https://raw.githubusercontent.com/gvillablanca/gvillablanca/master/assets/img/foodmap.png)
 
 
+
+## Desarrollado para
+[Laboratoria](http://www.laboratoria.la/)
